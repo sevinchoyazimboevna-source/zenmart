@@ -1,0 +1,241 @@
+  .navbar_frame {
+    position: relative;
+    width: 100%;
+    height: 145px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    background-color: rgb(68,50,151);
+  }
+  .navbar_frame .container {
+    padding: 20px 0 14px;
+    position: relative;
+    width: 1320px; 
+    height:auto;
+    /* background-color: brown; */
+}
+
+.navbar_frame .nav_search_frame {
+  width:651px ;
+  height:50px ;
+  border-radius: 6px;
+  background: rgb(255,255,255);
+  display: flex;
+  flex-direction: row ;
+}
+
+.navbar_frame .container .nav_top {
+  width: 100%;
+  height: 50px;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav_search_frame .search_box {
+    padding: 10px  17px;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+}
+.category_list select {
+    width: 140px;
+    height: 30px;
+    border: none;
+    outline: none;
+
+    color: rgb(4,30,66);
+    font-family: Jost;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    
+}
+
+.search_box input {
+    margin-left: 12px;
+  width: 387px;
+  height: 22px;
+
+border: none;
+outline: none;
+  color: rgb(98,105,116);
+  font-family: Jost;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+ .nav_search_frame .search_icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 6px 6px 0px;
+    background-color: rgb(245, 195, 75);
+
+ }
+
+ .nav_search_frame .search_icon img {
+    width: 30px;
+    height: 30px;
+ }
+
+.search_box .category_list {
+  width: 166px;
+  height: 30px;
+
+  border-right: 1px solid rgb(214, 214, 214);
+}
+
+.nav_top .nav_top_menu {
+    width: 416px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: red; */
+} 
+
+.nav_top_menu .top_menu_box {
+    display: flex;
+    flex-direction: row;
+}
+
+.top_menu_box .box_icon_box {
+    position: relative;
+    width: 54px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+}
+.top_menu_box .box_info_box {
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.box_info_box span {
+    color: rgb(255,255,255);
+    font-family: Jost;
+    font-style: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.box_info_box strong {
+   color: rgb(255,255,255);
+    font-family: Jost;
+    font-style: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.box_icon_box .basket_count {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+
+    width: 15px;
+    height:15px ;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: rgb(245, 195, 75);
+    color: rgb(11, 30, 64);
+    font-family: Jost;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.navbar_frame .container .navbar_bott {
+    margin-top: 20px;
+    border-top: 1px solid #5747a2;
+}
+
+.navbar_bott .navbar_bott_menu_box {
+    margin-top: 10px;
+    height: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar_bott .browse_box {
+    width: 185px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-right: 1px solid #5747a2;
+}
+
+.browse_box img {
+    width: 20px;
+    height: 18px;
+}
+
+.browse_box span {
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.navbar_bott_menu_box .navbar_route_menu {
+    width: 670px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navbar_route_menu a {
+    margin-right: 10px;
+    color: #fff;
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.navbar_route_menu a.title {
+    color: #f5c34b;
+}
+
+.navbar_bott_menu_box .sorting_menu {
+    align-items: center;
+    display: flex;
+    justify-content: row;
+}
+.sorting_menu span {
+    margin-left: 10px;
+     color: rgb(255, 255, 255);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+}
