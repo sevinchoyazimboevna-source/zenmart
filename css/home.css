@@ -22,6 +22,7 @@
     position: relative;
     width: 875px;
     height: 508px;
+    border-radius: 5px;
   background-color: #0053f6 ;
     background-image: url(../images/icons/header_bg.svg);
 }
@@ -110,6 +111,7 @@
 }
 
 .header_right .header_box {
+    margin-left: 26px;
     width: 422px;
     height: 240px;
 
@@ -150,7 +152,7 @@
 .box_left a {
      font-family: Jost;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 15px;
     line-height: 22px;
     color: #041e42;
@@ -164,6 +166,14 @@
     background: #041e42;
 }
 
+.box_left .hover_border2 {
+    margin-top: 3px;
+    width: 130px;
+    height: 2px;
+
+    background: #041e42;
+}
+
 .header_box .box_right {
     width: 50%;
 
@@ -172,4 +182,5 @@
 .box_right img {
   width: 100%;
   height: 100%;
+  
 }
