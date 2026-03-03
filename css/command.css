@@ -258,3 +258,339 @@ outline: none;
     font-size: 16px;
     font-weight: 400;
 }
+
+/* Home page */
+.home_page {
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header_frame {
+    position: relative;
+    margin-top: 47px;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+}
+
+ .header_frame .container {
+    flex-direction: row;
+}
+
+.header_frame .container .header_left {
+    padding: 15px;
+    position: relative;
+    width: 875px;
+    height: 508px;
+    border-radius: 5px;
+  background-color: #0053f6 ;
+    background-image: url(../images/icons/header_bg.svg);
+}
+
+.header_frame .header_left .header_content {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header_frame .header_content div {
+    width:104px ;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #f5c34b;
+    border-radius: 6px;
+
+    font-family: Jost;
+    font-style: normal;
+    font-weight:500px ;
+    font-size: 15px;
+    line-height: 22px;
+
+    color:#041e42 ;
+}
+
+.header_frame .header_content span {
+    width: 428px;
+    margin-top: 10px;
+
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 400;
+    font-size:60px;
+    line-height: 87px;
+  color: #ffffff;
+}
+
+.header_frame .header_content p {
+    margin-top: 10px;
+     
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  color: #ffffff;
+
+}
+
+
+.header_frame .header_content a {
+    margin-top: 20px;
+    width: 140px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #ffffff;
+
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #041e42;
+
+    /* border: 1px solid #ffffff; */
+    border-radius: 6px;
+}
+
+.header_frame .header_content img {
+    position: absolute;
+    right: 10px;
+}
+
+.header_frame .container .header_right {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header_frame .header_right .header_box {
+    margin-left: 26px;
+    width: 422px;
+    height: 240px;
+
+    display: flex;
+    flex-direction: row;
+    background: #f2f2f2;
+    border-radius: 5px;
+}
+
+.header_frame .header_right .box_left {
+    margin-left: 30px;
+    width:50% ;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.header_frame .box_left span {
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #0053f6;
+}
+
+.header_frame .box_left p {
+    margin: 10px 0;
+     font-family: Jost;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 38px;
+    color: #041e42;
+}
+
+.header_frame .box_left a {
+     font-family: Jost;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #041e42;
+}
+
+.header_frame .box_left .hover_border {
+    margin-top: 3px;
+    width: 32px;
+    height: 2px;
+
+    background: #041e42;
+}
+
+.header_frame .box_left .hover_border2 {
+    margin-top: 3px;
+    width: 130px;
+    height: 2px;
+
+    background: #041e42;
+}
+
+.header_frame .header_box .box_right {
+    width: 50%;
+
+}
+
+.header_frame .box_right img {
+  width: 100%;
+  height: 100%;
+  
+}
+
+.home_page .service_frame {
+    margin-top: 30px;
+    position: relative;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+}
+
+.service_frame .container {
+    flex-direction: row;
+}
+
+.service_frame .container .service_box {
+    width: 25%;
+    height: 86px;
+
+    display: flex;
+    flex-direction: row;
+
+    border-bottom: 1px solid #eaeaea;
+}
+.service_frame .service_box img {
+    width: 35px;
+    height: 35px;
+}
+
+.service_frame .service_box .service_content {
+    margin-left: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.service_frame .service_content span {
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #041e42;
+}
+
+.service_frame .service_content p {
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #626974;
+}
+
+.shop_category_frame {
+    position: relative;
+    margin-top: 90px;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.shop_category_frame .container {
+    flex-direction: column;
+}
+
+.shop_category_frame .container .category_top {
+   width: 100%;
+   height: auto;
+
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.shop_category_frame .category_top span {
+   font-family: Jost;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    color: #041e42; 
+}
+
+.shop_category_frame .category_top a {
+   font-family: Jost;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+
+    color: #041e42; 
+}
+
+.shop_category_frame .category_top a:hover {
+   border-bottom: 2px solid #041e42;
+}
+
+.shop_category_frame .container .category_wrapper {
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+
+.shop_category_frame .category_wrapper .category_box {
+    width: 142px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.shop_category_frame .category_box .category_img_box {
+    width: 100%;
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid #eaeaea;
+    border-radius: 150px;
+}
+
+.shop_category_frame .category_box span {
+    margin-top: 15px;
+     font-family: Jost;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+
+    text-align: center;
+
+    color: #041e42; 
+}
