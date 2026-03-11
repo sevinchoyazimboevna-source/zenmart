@@ -1,3 +1,7 @@
+:root {
+    --font:"jost";
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -66,7 +70,7 @@ p {
     outline: none;
 
     color: rgb(4,30,66);
-    font-family: Jost;
+    font-family: var(--font);
     font-size: 15px;
     font-weight: 400;
     line-height: 22px;
@@ -82,7 +86,7 @@ p {
 border: none;
 outline: none;
   color: rgb(98,105,116);
-  font-family: Jost;
+  font-family: var(--font);
     font-size: 15px;
     font-weight: 400;
     line-height: 22px;
@@ -147,7 +151,7 @@ outline: none;
 }
 .navbar_frame .box_info_box span {
     color: rgb(255,255,255);
-    font-family: Jost;
+    font-family: var(--font);
     font-style: 16px;
     font-weight: 400;
     line-height: 22px;
@@ -158,7 +162,7 @@ outline: none;
 
 .navbar_frame .box_info_box strong {
    color: rgb(255,255,255);
-    font-family: Jost;
+    font-family: var(--font);
     font-style: 16px;
     font-weight: 500;
     line-height: 22px;
@@ -180,7 +184,7 @@ outline: none;
     
     background-color: rgb(245, 195, 75);
     color: rgb(11, 30, 64);
-    font-family: Jost;
+    font-family: var(--font);
     font-size: 10px;
     font-weight: 700;
     line-height: 10px;
@@ -218,7 +222,7 @@ outline: none;
 .navbar_frame .browse_box span {
     margin-left: 10px;
     color: rgb(255, 255, 255);
-    font-family: Jost;
+    font-family: var(--font);
     font-size: 16px;
     font-weight: 700;
     line-height: 28px;
@@ -236,7 +240,7 @@ outline: none;
 .navbar_frame .navbar_route_menu a {
     margin-right: 10px;
     color: #fff;
-    font-family: Jost;
+    font-family: var(--font);
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
@@ -254,7 +258,7 @@ outline: none;
 .navbar_frame .sorting_menu span {
     margin-left: 10px;
      color: rgb(255, 255, 255);
-    font-family: Jost;
+    font-family: var(--font);
     font-size: 16px;
     font-weight: 400;
 }
@@ -277,7 +281,7 @@ outline: none;
 }
 
 .container .category_top span {
-   font-family: Jost;
+   font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
@@ -287,7 +291,7 @@ outline: none;
 }
 
 .container .category_top a {
-   font-family: Jost;
+   font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -395,7 +399,7 @@ outline: none;
     background: #f5c34b;
     border-radius: 6px;
 
-    font-family: Jost;
+    font-family: var(--font);
     font-style: normal;
     font-weight:500px ;
     font-size: 15px;
@@ -408,7 +412,7 @@ outline: none;
     width: 428px;
     margin-top: 10px;
 
-    font-family: Jost;
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size:60px;
@@ -419,7 +423,7 @@ outline: none;
 .header_frame .header_content p {
     margin-top: 10px;
      
-    font-family: Jost;
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -439,7 +443,7 @@ outline: none;
 
     background: #ffffff;
 
-    font-family: Jost;
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -484,7 +488,7 @@ outline: none;
 }
 
 .header_frame .box_left span {
-    font-family: Jost;
+   font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -494,7 +498,7 @@ outline: none;
 
 .header_frame .box_left p {
     margin: 10px 0;
-     font-family: Jost;
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 26px;
@@ -503,7 +507,7 @@ outline: none;
 }
 
 .header_frame .box_left a {
-     font-family: Jost;
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -574,7 +578,7 @@ outline: none;
 
 
 .service_frame .service_content span {
-    font-family: Jost;
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -583,7 +587,7 @@ outline: none;
 }
 
 .service_frame .service_content p {
-    font-family: Jost;
+   font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -673,7 +677,7 @@ outline: none;
 
 .shop_category_frame .category_box span {
     margin-top: 15px;
-     font-family: Jost;
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -771,7 +775,7 @@ flex-direction: row;
     box-shadow: 0px 5px 20px rgb(0, 83, 246, 0.1);
     border-radius: 6px;
 
-    font-family: Jost;
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -791,7 +795,7 @@ flex-direction: row;
 }
 
 .selling_product_frame .product_content_box .product_title {
-    font-family: Jost;
+   font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -802,7 +806,7 @@ flex-direction: row;
 }
 
 .selling_product_frame .product_content_box .product_desc {
-    font-family: Jost;
+    font-family: var(--font);
     height: 56px;
     font-style: normal;
     font-weight: 500;
@@ -827,7 +831,7 @@ flex-direction: row;
 
 .selling_product_frame .review_box span {
     margin-left: 10px;
-     font-family: Jost;
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -845,7 +849,7 @@ flex-direction: row;
 }
 
 .selling_product_frame .price_box strong {
-     font-family: Jost;
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -856,7 +860,7 @@ flex-direction: row;
 
 .selling_product_frame .price_box span {
     margin-left: 10px;
-     font-family: Jost;
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -876,7 +880,7 @@ flex-direction: row;
     justify-content: center;
     background-color: #e5edff;
 
-    font-family: Jost;
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -936,7 +940,7 @@ flex-direction: row;
 }
 
 .spec_product_frame .big_product_content span {
-    font-family: Jost;
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -947,7 +951,7 @@ flex-direction: row;
 
 .spec_product_frame .big_product_content p {
     margin: 7px 0;
-    font-family: Jost;
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 26px;
@@ -957,7 +961,7 @@ flex-direction: row;
 }
 
 .spec_product_frame .big_product_content a {
-    font-family: Jost;
+   font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -1007,7 +1011,7 @@ flex-direction: row;
 }
 
 .spec_product_frame .small_product_content strong {
-    font-family: Jost;
+   font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -1017,7 +1021,7 @@ flex-direction: row;
 }
 
 .spec_product_frame .small_product_content span {
-    font-family: Jost;
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -1055,7 +1059,7 @@ flex-direction: row;
 .footer_frame .footer_spec_title {
     display: block;
     margin-bottom:30px;
-    font-family: Jost;
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -1102,7 +1106,7 @@ flex-direction: row;
 
 .footer_frame .footer_contact_main strong {
     margin-bottom: 10px;
-    font-family: Jost;
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -1112,7 +1116,7 @@ flex-direction: row;
 }
 
 .footer_frame .footer_contact_main span {
-    font-family: Jost;
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -1127,7 +1131,7 @@ flex-direction: row;
     flex-direction: column;
 }
 .footer_frame .customer_support_box a {
-    font-family: Jost;
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -1170,7 +1174,7 @@ flex-direction: row;
 
 .footer_frame .media_app_box span {
     margin-left: 20px;
-     font-family: Jost;
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -1216,7 +1220,7 @@ flex-direction: row;
 .footer_frame .footer_bottom_left span {
     
       margin-right: 60px;
-     font-family: Jost;
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -1251,7 +1255,7 @@ flex-direction: row;
 
 .footer_frame .footer_select_box span {
     /* margin: 20px; */
-     font-family: Jost;
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
