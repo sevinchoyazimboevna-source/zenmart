@@ -1451,5 +1451,144 @@ flex-direction: row;
     font-size: 14px;
     line-height: 22px;
 
+    color: #6d6161;
+}
+
+.shop_page .top_product_frame {
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.shop_page .top_product_frame .container {
+    flex-direction: column;
+}
+
+.shop_page .top_product_frame .container .top_product_top {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top_product_top .pagination_main {
+    width: 200px;
+    height: 20px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.shop_page .top_product_frame .container .top_product_bottom {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.shop_page .product_box {
+    margin-bottom: 30x;
+    width: 250px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #eaeaea;
+    cursor: pointer;
+}
+
+.shop_page .product_box .product_img_box {
+    width: 100%;
+    height: 230px;
+}
+
+.shop_page .product_content_box {
+    padding: 0px 0px 0px 18px;
+    width: 100%;
+    height: auto;
+}
+
+.shop_page .product_content_box .product_title {
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    text-transform: uppercase;
+
+    color: #626974;
+}
+
+.shop_page .product_content_box .product_desc {
+    width: 90%;
+    height: 56px;
+    overflow: hidden;
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28px;
+    text-transform: capitalize;
+
     color: #041e42;
+}
+
+.shop_page .product_content_box .review_box {
+    margin-top: 7px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.shop_page .review_box img {
+    margin-right: 5px;
+}
+
+.shop_page .review_box span {
+    margin-left: 7px;
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-transform: capitalize;
+
+    color: #626974;
+}
+
+.shop_page .product_content_box  .price_box {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.shop_page .price_box  strong {
+     font-family: var(--font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    /* text-transform: capitalize; */
+
+    color: #041e42;
+}
+
+.shop_page .price_box span {
+    margin-left: 10px;
+     font-family: var(--font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-decoration-line: line-through;
+
+    color: #626974;
 }
